@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: powderblue;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="reach.html">contact us</a></li>
+  <li><a href="team.html">team</a></li>
+  <li><a href="about.html">about</a></li>
+  <li><a href="gallery.html">gallery</a></li>
+  <li><a href="services.html">service</a></li>
+  <li><a href="index.html">home</a></li>
+</ul>
+
+<h2 style="color:maroon;font-size:40px;text-align:center">our amazing team</h2>
+<div class="row">
+  <div class="column">
+    <img src="img\3.jpg" style="width:230px;height:300px;border-radius:50%;margin-left:270px;">
+    <h2 STYLE="TEXT-align:center"><b>Mr. Yash Pal Sharma</b></h2>
+	<p STYLE="TEXT-align:center"><U>TEAM LEADER</u></P>
+	<BR>
+	<P STYLE="TEXT-align:center">[M-TECH/MCA</P>
+	<P STYLE="TEXT-align:center">[15YRS.TEACHING EXPERIENCE]</P>
+  </div>
+  <div class="column">
+    <img src="img\600.jpg" style="width:230px;height:300px;border-radius:50%;margin-left:270px;">
+    <h2 STYLE="TEXT-align:center"><b>Ms. Vandana Sharma</b></h2>
+	<p STYLE="TEXT-align:center"><U>PROGRAMMER</u></P>
+	<BR>
+	<P STYLE="TEXT-align:center">[MCA/B.COM]</P>
+	<P STYLE="TEXT-align:center">[10YRS.TEACHING EXPERIENCE]</P>
+  </div>
+</div>
+
+<br><br><br><br>
+<br><br><br><BR><br><br><br><br>
+<br><br><br><BR>
+<center>
+<h2 STYLE="padding:25px;background-color:orange">@Shridurgatechnicalproduction</H2>
+</center>
+</body>
+</html>
